@@ -3,11 +3,11 @@ const router = express.Router()
 
 const { loginCtrl, registerCtrl } = require('../controlles/auth')
 
-//TODO: Login !
+// Login !
 router.post('/login', loginCtrl)
 
 
-//TODO: Registrar un usuario
+//User registration
 router.post('/register', registerCtrl)
 
 
